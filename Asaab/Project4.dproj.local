@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/05/04 10:10:07.000.325,=\\HYPER-V-SERVER\user$\9sayadi\My Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2013/05/04 10:28:55.000.587,\\HYPER-V-SERVER\user$\9sayadi\My Documents\RAD Studio\Projects\Unit2.pas=\\HYPER-V-SERVER\user$\9sayadi\Desktop\barnameha kelas\Asaab\Unit2.pas</Transaction>
+    <Transaction>2013/05/04 10:28:55.000.587,\\HYPER-V-SERVER\user$\9sayadi\My Documents\RAD Studio\Projects\Unit2.dfm=\\HYPER-V-SERVER\user$\9sayadi\Desktop\barnameha kelas\Asaab\Unit2.dfm</Transaction>
+    <Transaction>2013/05/04 10:28:56.000.447,\\HYPER-V-SERVER\user$\9sayadi\My Documents\RAD Studio\Projects\Project4.dproj=\\HYPER-V-SERVER\user$\9sayadi\Desktop\barnameha kelas\Asaab\Project4.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
