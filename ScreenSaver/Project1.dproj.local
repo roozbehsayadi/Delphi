@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/11/09 19:08:39.000.840,=C:\Users\ROOZBEH\Documents\RAD Studio\Projects\DetailView1.pas</Transaction>
+    <Transaction>2012/11/09 19:08:39.000.636,=C:\Users\ROOZBEH\Documents\RAD Studio\Projects\GridView1.pas</Transaction>
+    <Transaction>2012/12/06 12:50:32.000.372,=C:\Users\ROOZBEH\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/12/06 12:59:21.000.871,C:\Users\ROOZBEH\Desktop\Delphi\screen saver\Unit1.dfm=C:\Users\ROOZBEH\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2012/12/06 12:59:21.000.871,C:\Users\ROOZBEH\Desktop\Delphi\screen saver\Unit1.pas=C:\Users\ROOZBEH\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/12/06 12:59:23.000.259,C:\Users\ROOZBEH\Desktop\Delphi\screen saver\Project1.dproj=C:\Users\ROOZBEH\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
