@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/11/09 19:08:39.000.636,=C:\Users\ROOZBEH\Documents\RAD Studio\Projects\GridView1.pas</Transaction>
+    <Transaction>2012/11/09 19:08:39.000.840,=C:\Users\ROOZBEH\Documents\RAD Studio\Projects\DetailView1.pas</Transaction>
+    <Transaction>2013/03/13 17:08:03.000.313,=C:\Users\ROOZBEH\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/03/13 17:21:20.000.481,C:\Users\ROOZBEH\Desktop\Delphi\Chess\Unit1.pas=C:\Users\ROOZBEH\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/03/13 17:21:20.000.481,C:\Users\ROOZBEH\Desktop\Delphi\Chess\Unit1.dfm=C:\Users\ROOZBEH\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2013/03/13 17:21:21.000.224,C:\Users\ROOZBEH\Desktop\Delphi\Chess\Project1.dproj=C:\Users\ROOZBEH\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2013/03/14 13:48:19.000.768,=C:\Users\ROOZBEH\Desktop\Delphi\Chess\Unit2.pas</Transaction>
+    <Transaction>2013/03/14 13:51:15.000.197,=C:\Users\ROOZBEH\Desktop\Delphi\Chess\Unit3.pas</Transaction>
+  </Transactions>
+</BorlandProject>

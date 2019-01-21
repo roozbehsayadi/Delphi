@@ -1,0 +1,513 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Imaging.pngimage,
+  Vcl.Menus, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Image1: TImage;
+    MainMenu1: TMainMenu;
+    Game1: TMenuItem;
+    New: TMenuItem;
+    Image2: TImage;
+    Load: TMenuItem;
+    Image3: TImage;
+    Image5: TImage;
+    Image4: TImage;
+    Image6: TImage;
+    Image7: TImage;
+    Image8: TImage;
+    Image9: TImage;
+    Image10: TImage;
+    Image11: TImage;
+    Image12: TImage;
+    Image13: TImage;
+    Image14: TImage;
+    Image15: TImage;
+    Image16: TImage;
+    Image17: TImage;
+    Image18: TImage;
+    Image19: TImage;
+    Image20: TImage;
+    Image21: TImage;
+    Image22: TImage;
+    Image23: TImage;
+    Image24: TImage;
+    Image25: TImage;
+    Image26: TImage;
+    Image27: TImage;
+    Image28: TImage;
+    Image29: TImage;
+    Image30: TImage;
+    Image31: TImage;
+    Image32: TImage;
+    Image33: TImage;
+    Image34: TImage;
+    Image35: TImage;
+    Image36: TImage;
+    Image37: TImage;
+    Image38: TImage;
+    Image39: TImage;
+    Image40: TImage;
+    Image41: TImage;
+    Image42: TImage;
+    Image43: TImage;
+    Image44: TImage;
+    Image45: TImage;
+    Image46: TImage;
+    Image47: TImage;
+    Image48: TImage;
+    Image49: TImage;
+    Image50: TImage;
+    Image51: TImage;
+    Image52: TImage;
+    Image53: TImage;
+    Image54: TImage;
+    Image55: TImage;
+    Image56: TImage;
+    Image57: TImage;
+    Image58: TImage;
+    Image59: TImage;
+    Image60: TImage;
+    Image61: TImage;
+    Image62: TImage;
+    Image63: TImage;
+    Image64: TImage;
+    Image65: TImage;
+    Image66: TImage;
+    Image67: TImage;
+    Image68: TImage;
+    Image69: TImage;
+    Image70: TImage;
+    Image71: TImage;
+    Image72: TImage;
+    Image73: TImage;
+    Image74: TImage;
+    Image75: TImage;
+    Image76: TImage;
+    Image77: TImage;
+    Image78: TImage;
+    Image79: TImage;
+    Image80: TImage;
+    Image81: TImage;
+    Image82: TImage;
+    Image83: TImage;
+    Image84: TImage;
+    Image85: TImage;
+    Image86: TImage;
+    Image87: TImage;
+    Image88: TImage;
+    Image89: TImage;
+    Image90: TImage;
+    Image91: TImage;
+    Image92: TImage;
+    Image93: TImage;
+    Image94: TImage;
+    Image95: TImage;
+    Image96: TImage;
+    Image97: TImage;
+    Image98: TImage;
+    Image99: TImage;
+    Exit1: TMenuItem;
+    Help1: TMenuItem;
+    About1: TMenuItem;
+    Timer1: TTimer;
+    Timer2: TTimer;
+    Timer3: TTimer;
+    Timer4: TTimer;
+    Timer5: TTimer;
+    Timer6: TTimer;
+    Timer7: TTimer;
+    Timer8: TTimer;
+    Timer9: TTimer;
+    Timer10: TTimer;
+    Timer11: TTimer;
+    Timer12: TTimer;
+    Timer13: TTimer;
+    Timer14: TTimer;
+    Timer15: TTimer;
+    Timer16: TTimer;
+    procedure FormCreate(Sender: TObject);
+    procedure Image83Click(Sender: TObject);
+    procedure NewClick(Sender: TObject);
+    procedure Image71Click(Sender: TObject);
+    procedure Exit1Click(Sender: TObject);
+    procedure About1Click(Sender: TObject);
+    procedure Timer1Timer(Sender: TObject);
+    procedure Timer2Timer(Sender: TObject);
+    procedure Image75MouseDown(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Integer);
+    procedure Image50Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+  flag: string;
+  X, Y: Integer;
+
+implementation
+
+{$R *.dfm}
+
+uses Unit2;
+
+procedure TForm1.About1Click(Sender: TObject);
+begin
+  form2.Show;
+end;
+
+procedure TForm1.Exit1Click(Sender: TObject);
+begin
+  Form1.Close;
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  Image1.Left := (Form1.ClientWidth div 2) - (Image1.Width div 2);
+  flag := 'white';
+end;
+
+procedure TForm1.Image50Click(Sender: TObject);
+begin
+  if Image75.Tag = 1 then
+  begin
+    Image75.Top := Image50.Top;
+    image75.Tag := 0;
+  end;
+end;
+
+procedure TForm1.Image71Click(Sender: TObject);
+begin
+  Image71.Top := 40;
+end;
+
+procedure TForm1.Image75MouseDown(Sender: TObject; Button: TMouseButton;
+  Shift: TShiftState; X, Y: Integer);
+begin
+  Image75.Tag := 1;
+end;
+
+procedure TForm1.Image83Click(Sender: TObject);
+begin
+  Game1.Visible := true;
+  Help1.Visible := true;
+  Image83.Visible := false;
+  sleep(5);
+  Image1.Visible := false;;
+  sleep(5);
+  Image2.Visible := true;;
+  sleep(5);
+  Image3.Visible := true;;
+  sleep(5);
+  Image4.Visible := true;;
+  sleep(5);
+  Image6.Visible := true;;
+  sleep(5);
+  Image7.Visible := true;;
+  sleep(5);
+  Image8.Visible := true;;
+  sleep(5);
+  Image9.Visible := true;
+  sleep(5);
+  Image10.Visible := true;
+  Form1.Refresh;
+  sleep(5);
+  Image11.Visible := true;
+  sleep(5);
+  Image12.Visible := true;
+  sleep(5);
+  Image13.Visible := true;
+  sleep(5);
+  Image14.Visible := true;
+  sleep(5);
+  Image15.Visible := true;
+  sleep(5);
+  Image16.Visible := true;
+  sleep(5);
+  Image17.Visible := true;
+  sleep(5);
+  Image18.Visible := true;
+  Form1.Refresh;
+  sleep(5);
+  Image19.Visible := true;
+  sleep(5);
+  Image20.Visible := true;
+  sleep(5);
+  Image21.Visible := true;
+  sleep(5);
+  Image22.Visible := true;
+  sleep(5);
+  Image23.Visible := true;
+  sleep(5);
+  Image24.Visible := true;
+  sleep(5);
+  Image25.Visible := true;
+  sleep(5);
+  Image26.Visible := true;
+  Form1.Refresh;
+  sleep(5);
+  Image27.Visible := true;
+  sleep(5);
+  Image28.Visible := true;
+  sleep(5);
+  Image29.Visible := true;
+  sleep(5);
+  Image30.Visible := true;
+  sleep(5);
+  Image31.Visible := true;
+  sleep(5);
+  Image32.Visible := true;
+  sleep(5);
+  Image33.Visible := true;
+  sleep(5);
+  Image34.Visible := true;
+  Form1.Refresh;
+  sleep(5);
+  Image35.Visible := true;
+  sleep(5);
+  Image36.Visible := true;
+  sleep(5);
+  Image37.Visible := true;
+  sleep(5);
+  Image38.Visible := true;
+  sleep(5);
+  Image39.Visible := true;
+  sleep(5);
+  Image40.Visible := true;
+  sleep(5);
+  Image41.Visible := true;
+  sleep(5);
+  Image42.Visible := true;
+  Form1.Refresh;
+  sleep(5);
+  Image43.Visible := true;
+  sleep(5);
+  Image44.Visible := true;
+  sleep(5);
+  Image45.Visible := true;
+  sleep(5);
+  Image46.Visible := true;
+  sleep(5);
+  Image47.Visible := true;
+  sleep(5);
+  Image48.Visible := true;
+  sleep(5);
+  Image49.Visible := true;
+  sleep(5);
+  Image50.Visible := true;
+  Form1.Refresh;
+  sleep(5);
+  Image51.Visible := true;
+  sleep(5);
+  Image52.Visible := true;
+  sleep(5);
+  Image53.Visible := true;
+  sleep(5);
+  Image54.Visible := true;
+  sleep(5);
+  Image55.Visible := true;
+  sleep(5);
+  Image56.Visible := true;
+  sleep(5);
+  Image57.Visible := true;
+  sleep(5);
+  Image58.Visible := true;
+  Form1.Refresh;
+  sleep(5);
+  Image59.Visible := true;
+  sleep(5);
+  Image60.Visible := true;
+  sleep(5);
+  Image61.Visible := true;
+  sleep(5);
+  Image62.Visible := true;
+  sleep(5);
+  Image63.Visible := true;
+  sleep(5);
+  Image64.Visible := true;
+  sleep(5);
+  Image65.Visible := true;
+  sleep(5);
+  Image66.Visible := true;
+  Form1.Refresh;
+  sleep(5);
+  Image67.Visible := true;
+  sleep(5);
+  Image68.Visible := true;
+  sleep(5);
+  Image69.Visible := true;
+  sleep(5);
+  Image70.Visible := true;
+  sleep(5);
+  Image71.Visible := true;
+  sleep(5);
+  Image72.Visible := true;
+  sleep(5);
+  Image73.Visible := true;
+  sleep(5);
+  Image74.Visible := true;
+  Form1.Refresh;
+  sleep(5);
+  Image75.Visible := true;
+  sleep(5);
+  Image76.Visible := true;
+  sleep(5);
+  Image77.Visible := true;
+  sleep(5);
+  Image78.Visible := true;
+  sleep(5);
+  Image79.Visible := true;
+  sleep(5);
+  Image80.Visible := true;
+  sleep(5);
+  Image81.Visible := true;
+  sleep(5);
+  Image82.Visible := true;
+  Form1.Refresh;
+  sleep(5);
+  Image83.Visible := true;
+  sleep(5);
+  Image84.Visible := true;
+  sleep(5);
+  Image85.Visible := true;
+  sleep(5);
+  Image86.Visible := true;
+  sleep(5);
+  Image87.Visible := true;
+  sleep(5);
+  Image88.Visible := true;
+  sleep(5);
+  Image89.Visible := true;
+  sleep(5);
+  Image90.Visible := true;
+  sleep(5);
+  Image91.Visible := true;
+  Form1.Refresh;
+  sleep(5);
+  Image92.Visible := true;
+  sleep(5);
+  Image93.Visible := true;
+  sleep(5);
+  Image94.Visible := true;
+  sleep(5);
+  Image95.Visible := true;
+  sleep(5);
+  Image96.Visible := true;
+  sleep(5);
+  Image97.Visible := true;
+  sleep(5);
+  Image98.Visible := true;
+  sleep(5);
+  Image99.Visible := true;
+  Form1.Refresh;
+  sleep(5);
+  Image5.Visible := true;
+  Image5.SendToBack;
+end;
+
+procedure TForm1.NewClick(Sender: TObject);
+begin
+  Image67.Left := 30;
+  Image67.Top := 485;
+  Image68.Left := 95;
+  Image68.Top := 485;
+  Image69.Left := 485;
+  Image69.Top := 485;
+  Image70.Left := 420;
+  Image70.Top := 485;
+  Image71.Left := 160;
+  Image71.Top := 485;
+  Image72.Left := 355;
+  Image72.Top := 485;
+  Image73.Left := 290;
+  Image73.Top := 485;
+  Image74.Left := 225;
+  Image74.Top := 485;
+  Image75.Left := 30;
+  Image75.Top := 420;
+  Image76.Left := 95;
+  Image76.Top := 420;
+  Image77.Left := 160;
+  Image77.Top := 420;
+  Image78.Left := 225;
+  Image78.Top := 420;
+  Image79.Left := 290;
+  Image79.Top := 420;
+  Image80.Left := 355;
+  Image80.Top := 420;
+  Image81.Left := 420;
+  Image81.Top := 420;
+  Image82.Left := 485;
+  Image82.Top := 420;
+  Image84.Left := 30;
+  Image84.Top := 30;
+  Image85.Left := 485;
+  Image85.Top := 30;
+  Image86.Left := 95;
+  Image86.Top := 30;
+  Image87.Left := 420;
+  Image87.Top := 30;
+  Image88.Left := 160;
+  Image88.Top := 30;
+  Image89.Left := 355;
+  Image89.Top := 30;
+  Image90.Left := 225;
+  Image90.Top := 30;
+  Image91.Left := 290;
+  Image91.Top := 30;
+  Image92.Left := 30;
+  Image92.Top := 95;
+  Image93.Left := 95;
+  Image93.Top := 95;
+  Image94.Left := 160;
+  Image94.Top := 95;
+  Image95.Left := 225;
+  Image95.Top := 95;
+  Image96.Left := 290;
+  Image96.Top := 95;
+  Image97.Left := 355;
+  Image97.Top := 95;
+  Image98.Left := 420;
+  Image98.Top := 95;
+  Image99.Left := 485;
+  Image99.Top := 95;
+end;
+
+procedure TForm1.Timer1Timer(Sender: TObject);
+var
+  a: Integer;
+begin
+  { if (Image75.Top > 290) then
+    begin
+    Image75.Top := Image75.Top - 5;
+    end;
+    if (Image75.Top < 290) then
+    begin
+    Image75.Top := 290;
+    Timer1.Enabled := false;
+    end; }
+end;
+
+procedure TForm1.Timer2Timer(Sender: TObject);
+begin
+  { if (image76.Top > 290) then
+    begin
+    Image76.Top := image76.Top - 5;
+    end;
+    if (image76.Top < 290) then
+    begin
+    image76.Top := 290;
+    Timer2.Enabled := false;
+    end; }
+end;
+
+end.
